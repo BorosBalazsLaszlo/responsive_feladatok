@@ -50,7 +50,7 @@ function Profile() {
         year: year
       } as Cars;
       
-      await apiClient.put(`/cars/${id}`, updateCar);
+      await apiClient.put(`/cars/${id}`, updatedCar);
       alert("Frissitett");
       window.location.reload();
     } catch (err:any)

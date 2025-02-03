@@ -1,0 +1,15 @@
+.sarga {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: yellow;
+    width: 100%;
+    height: 50vh;
+}
+
+.lila
+{
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+}

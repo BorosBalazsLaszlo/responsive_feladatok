@@ -1,0 +1,59 @@
+.container {
+  height: 30vh;
+  border: 2px solid black;
+}
+.container .row .col {
+  margin: 2px;
+  border: 1px solid black;
+}
+.info-container {
+  background-color: #17a2b8;
+}
+.info-container .col {
+  background-color: #007bff;
+  color: white;
+}
+.scroll-container {
+  height: 30vh;
+  border: 2px solid black;
+  margin-top: 2px;
+  overflow: auto;
+}
+.scroll-container .row:first-child .col {
+  margin: 2px;
+  border: 1px solid black;
+}
+.scroll-container .row:last-child .col {
+  margin: 2px;
+  border: 1px solid black;
+}
+.dark-container {
+  height: 30vh;
+  border: 2px solid black;
+  background-color: #6c757d;
+  margin-top: 2px;
+}
+.dark-container .row:first-child {
+  background-color: #dc3545;
+  color: white;
+  margin: 2px;
+}
+.dark-container .row:first-child .col:nth-child(1),
+.dark-container .row:first-child .col:nth-child(3) {
+  background-color: #007bff;
+}
+.dark-container .row:first-child .col:nth-child(2) {
+  background-color: #28a745;
+}
+.dark-container .row:last-child {
+  background-color: #ffc107;
+  color: black;
+  margin: 2px;
+}
+.dark-container .row:last-child .col:nth-child(1),
+.dark-container .row:last-child .col:nth-child(3) {
+  background-color: #17a2b8;
+}
+.dark-container .row:last-child .col:nth-child(2) {
+  background-color: #28a745;
+}
